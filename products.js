@@ -280,7 +280,7 @@ const products = [
     { name: "Нобивак Tricat Trio", price: 5600, image: "ссылка_на_изображение.jpg" },
     { name: "Новокаин 0,5% 100мл", price: 300, image: "ссылка_на_изображение.jpg" },
     { name: "Нож для копыт", price: 8500, image: "ссылка_на_изображение.jpg" },
-    { name: "Нож для копыт Diamond", price: -, image: "ссылка_на_изображение.jpg" },
+    { name: "Нож для копыт Diamond", price: 0, image: "ссылка_на_изображение.jpg" },
     { name: "Нуклеопептид 100мл", price: 4500, image: "ссылка_на_изображение.jpg" },
     { name: "Овариовит 10мл", price: 2200, image: "ссылка_на_изображение.jpg" },
     { name: "Овостоп для кошек", price: 4200, image: "ссылка_на_изображение.jpg" },
@@ -478,5 +478,6 @@ const products = [
 ];
 
 export default products;
+
 
 
