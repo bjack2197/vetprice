@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
             productName.textContent = product.name;
 
             const productPrice = document.createElement("p");
-            productPrice.textContent = `${product.price.toFixed(2)}`;
+            productPrice.textContent = `${product.price.toFixed(2)}₸`;
 
             productDiv.appendChild(productImage);
             productDiv.appendChild(productName);
@@ -48,4 +48,5 @@ document.addEventListener("DOMContentLoaded", function () {
     // Инициализация отображения всех товаров при загрузке страницы
     displayProducts(products);
 });
+
 
